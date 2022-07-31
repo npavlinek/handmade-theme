@@ -1,0 +1,23 @@
+#+TITLE: README
+#+AUTHOR: Niko Pavlinek
+
+* Introduction
+
+This is a port of the Emacs theme used by [[https://caseymuratori.com/][Casey Muratori]] on his [[https://handmadehero.org/][Handmade Hero]]
+programming series.
+
+It uses very minimal syntax highlighting and is currently only tested for C, C++
+and Emacs Lisp.
+
+* Screenshot
+
+[[./screenshot.png]]
+
+* Installation
+
+Put =handmade-theme.el= into your =.emacs.d= directory which can be found at
+=~/.emacs.d=. On Linux =~= expands to your home directory, for example
+=/home/<user>/.emacs.d=. On Windows it expands to =%APPDATA%\.emacs.d=.
+
+In the future this theme might be added to [[https://melpa.org/][MELPA]], in which case these
+installation instructions will be much simpler.
