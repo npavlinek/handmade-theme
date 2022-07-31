@@ -62,8 +62,8 @@
    `(font-lock-string-face ((t (:foreground ,handmade-olive))))
    `(font-lock-type-face ((t (:foreground ,handmade-beige))))
    `(font-lock-variable-name-face ((t (:foreground ,handmade-beige))))
-   `(handmade-important-face ((t (:foreground ,handmade-yellow))))
-   `(handmade-note-face ((t (:foreground ,handmade-dark-green))))
-   `(handmade-todo-face ((t (:foreground ,handmade-red))))))
+   `(handmade-important-face ((t (:foreground ,handmade-yellow :weight bold :underline t))))
+   `(handmade-note-face ((t (:foreground ,handmade-dark-green :weight bold :underline t))))
+   `(handmade-todo-face ((t (:foreground ,handmade-red :weight bold :underline t))))))
 
 (provide-theme 'handmade)
