@@ -40,6 +40,7 @@
       '(c-mode c++-mode emacs-lisp-mode))
 
 (let ((handmade-beige "burlywood3")
+      (handmade-dark-blue "midnight blue")
       (handmade-dark-gray "#161616")
       (handmade-dark-green "DarkGreen")
       (handmade-gold "DarkGoldenrod3")
@@ -64,6 +65,7 @@
    `(font-lock-variable-name-face ((t (:foreground ,handmade-beige))))
    `(handmade-important-face ((t (:foreground ,handmade-yellow :weight bold :underline t))))
    `(handmade-note-face ((t (:foreground ,handmade-dark-green :weight bold :underline t))))
-   `(handmade-todo-face ((t (:foreground ,handmade-red :weight bold :underline t))))))
+   `(handmade-todo-face ((t (:foreground ,handmade-red :weight bold :underline t))))
+   `(hl-line ((t (:background ,handmade-dark-blue))))))
 
 (provide-theme 'handmade)
